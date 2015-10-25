@@ -19,9 +19,9 @@ Use whatever you want to install them (from source, homebrew, apt).
 
 # Before run
 
-- Log In/Signup on [JCDecaux API Website](https://developer.jcdecaux.com/#/home) and find your API Key.
-- Replace [YOUR_API_KEY_HERE] in config_example with your API Key.
-- Copy `YOUR_PATH/config.default.js` into a new file called `YOUR_PATH/config.js`.
+- Sign up on [JCDecaux API Website](https://developer.jcdecaux.com) if you haven't already done so and find your API Key.
+- Replace `[YOUR_API_KEY_HERE]` in config.example.js with your API Key.
+- Copy `YOUR_PATH/config.example.js` into a new file called `YOUR_PATH/config.js`.
 
 _Note_: YOUR_PATH will depend on your current OS user and system configuration.
 
@@ -45,3 +45,4 @@ Don't forget to exclude your apiKey from commits
 ## More documentation
 
  * [API Endpoints](https://github.com/V1C0D3R/CycloStat/wiki/Endpoints)
+ * [Information Paternity belongs to JCDecaux](http://www.jcdecaux.com/)
