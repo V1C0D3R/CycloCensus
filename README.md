@@ -23,7 +23,7 @@ Use whatever you want to install them (from source, homebrew, apt).
 - Replace [YOUR_API_KEY_HERE] in config_example with your API Key.
 - Copy `YOUR_PATH/config.default.js` into a new file called `YOUR_PATH/config.js`.
 
-_/Note_: YOUR_PATH will depend on your current OS user and system configuration.
+_Note_: YOUR_PATH will depend on your current OS user and system configuration.
 
 # Run
 
@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-The server should be running on http://localhost:8080. You can change _/port_ and _/apiKey_ in config.js file.
+The server should be running on http://localhost:8080. You can change _port_ and _apiKey_ in config.js file.
 
 ## Contributing
 
