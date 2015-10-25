@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="183px" height="92px" viewBox="0 0 183 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="-0.284090909" width="34" height="43.5681818"></rect>
+        <rect id="path-3" x="0" y="-0.284090909" width="34" height="43.5681818"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CycloCense-+-Body" transform="translate(-8.000000, 1.000000)">
+            <g id="CycloCense" transform="translate(0.000000, 40.000000)">
+                <text id="---yclo---ense" font-family="Corbel" font-size="44.1818182" font-weight="normal" fill="#666666">
+                    <tspan x="9" y="41.7472479">   </tspan>
+                    <tspan x="35.5349787" y="41.7472479" font-size="36">yclo</tspan>
+                    <tspan x="96.1267756" y="41.7472479">   </tspan>
+                    <tspan x="122.661754" y="41.7472479" font-size="36">ense</tspan>
+                </text>
+                <g id="Oval-2" transform="translate(86.716356, 9.522727)">
+                    <mask id="mask-2" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" xlink:href="#path-1"></use>
+                    <circle stroke="#666666" stroke-width="6.87419987" fill-opacity="0.523607337" fill="#666666" mask="url(#mask-2)" cx="25.328158" cy="21.2914085" r="13.5414085"></circle>
+                </g>
+                <g id="Oval-3" transform="translate(0.169772, 10.000000)">
+                    <mask id="mask-4" sketch:name="Mask" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" xlink:href="#path-3"></use>
+                    <circle id="Oval-2" stroke="#666666" stroke-width="6.87419987" fill-opacity="0.523607337" fill="#666666" mask="url(#mask-4)" cx="25.328158" cy="21.2914085" r="13.5414085"></circle>
+                </g>
+            </g>
+            <g id="Body" transform="translate(41.000000, 0.000000)" stroke="#666666" stroke-width="2">
+                <circle id="Oval-5" cx="44.5" cy="10.5" r="10.5"></circle>
+                <path d="M59.434277,32.4439176 C59.434277,32.4439176 63.8633541,32.0358938 63.8633541,36.6532892 C63.8633541,41.2706846 59.434277,40.6151555 59.434277,40.6151555 C59.434277,40.6151555 40.9915966,41.9073804 39.3846106,40.6151562 C37.7776245,39.3229319 32.6257643,30.4800224 30.9416556,30.4800224 C29.2575468,30.4800224 17.1845265,40.6151563 17.1845265,40.6151563 C17.1845265,40.6151563 26.929573,45.6056018 28.9356138,49.0069966 C30.9416546,52.4083913 23.9191613,74.2085241 23.9191613,74.2085241 C23.9191613,74.2085241 25.9779362,82.5735198 20.7222275,79.539739 C18.1744275,78.0690587 18.1744275,74.2085241 18.1744275,74.2085241 L19.1744275,54.7632717 C19.1744275,54.7632717 -0.134517251,45.7168001 -0.134517251,38.2513078 C-0.134517251,30.7858156 21.5804228,14.6525819 27.8299136,14.5975818 C34.0794043,14.5425817 43.6872459,32.4439179 43.6872459,32.4439179 L59.434277,32.4439176 Z" id="Path-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

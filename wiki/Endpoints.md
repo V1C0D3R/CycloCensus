@@ -12,25 +12,13 @@ Response:
 
     Hello World!
 
-### Search links
-**GET** _/search_
+### Get Station Information
+**GET** _/stationInfo_
 
 Request:
 
-	GET /search?**q**=[query]&**num***=[number of links]
+	GET stationInfo?contract=Lyon
 
 Response:
 
-	JSON object containing result links
-
-### Spotlight
-**GET** _/spotlight_
-
-EXAMPLE:
-Request:  
-
-    GET /spotlight?**text**=victor%20hugo%20test
-
-Response:  
-
-    URI list : http://dbpedia.org/resource/Test_cricket,http://dbpedia.org/resource/Victor_Hugo
+	JSON object containing station information

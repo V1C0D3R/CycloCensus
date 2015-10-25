@@ -1,6 +1,9 @@
 {
   "name": "CycloCensus",
+  "version": "0.2.0",
+  "description": "A statistical tool upon bicycle-sharing systems",
   "private": true,
+  "author": "V1C0D3R <V1C0D3R@gmail.com>",
   "scripts": {
     "start": "node app.js"
   },
@@ -18,3 +21,4 @@
   },
   "license": "MIT"
 }
+

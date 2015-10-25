@@ -2,19 +2,24 @@
 "use strict";
 
 var express = require('express');
-var app = express();
+var app     = express();
+var path    = require('path');
 
 app.use(express.static(__dirname + '/pages'));
 //Store all HTML files in pages folder.
 
-var apiRequest = require('./jcdecaux_api/api_requests.js');
-var config = require('./config.js');
+var apiRequest = require(path.join(__dirname+'/jcdecaux_api/api.requests.js'));
+var config = require(path.join(__dirname+'/config.js'));
 if (config == null) {
     console.log('Please fill config_example with data and rename it to config.js before running server.');
-  }
+}
 
 app.get('/', function (req, res) {
-  res.sendFile('index.html');
+  res.sendFile('/index.html');
+});
+
+app.get('/about', function (req, res) {
+  res.redirect('/about.html');
 });
 
 app.get('/sayHello', function (req, res) {
@@ -39,3 +44,4 @@ var server = app.listen(config.port || 8080, function () {
     console.log('Please fill config_example with data and rename it to config.js before running server.');
   }console.log('CycloCensus app listening at http://%s:%s', host, port);
 });
+

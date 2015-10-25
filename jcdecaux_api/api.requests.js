@@ -2,7 +2,7 @@
 "use strict";
 
 var request = require('request');
-var api = require('./api_config.js');
+var api = require('./api.config.js');
 
 var getStation = function(apiKey, contract, number, res, callback)	{
 	var url = stationNumberUrl(apiKey, contract, number);
