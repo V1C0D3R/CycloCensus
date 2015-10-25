@@ -36,7 +36,7 @@ app.get('/stationInfo', function (req, res) {
   apiRequest.getStation(apiKey, contract, number, res);
 });
 
-var server = app.listen(config.port || 8080, function () {
+var server = app.listen(config.port, function () {
   var host = server.address().address;
   var port = server.address().port;
   if (config == null) {
