@@ -1,0 +1,13 @@
+{
+  "name": "CycloCensus",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "mongoose": "^4.2.2",
+    "path": "^0.12.7",
+    "request": "^2.65.0"
+  }
+}
