@@ -8,9 +8,7 @@ var path    = require('path');
 //Store all HTML files in pages folder.
 app.use(express.static(__dirname + '/pages'));
 
-console.log("Jusqu'ici ca va 1");
 var apiRequest = require(path.join(__dirname+'/jcdecaux_api/api.requests.js'));
-console.log("Jusqu'ici ca va 2");
 var config     = require(path.join(__dirname+'/config.js'));
 
 //Every URL access are redirected here :

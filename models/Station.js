@@ -6,7 +6,7 @@ var StationSchema = new Schema({
   number: Number,
   name: String,
   address: String,
-  position: {lat: Number, long: Number},
+  position: {lat: Number, lng: Number},
   banking: Boolean,
   status: String,
   contract_name: String,
