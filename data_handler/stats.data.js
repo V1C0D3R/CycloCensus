@@ -21,7 +21,7 @@ if ('development' == app.get('env')) {
 	    }
 	});
 } else if('production' == app.get('env')) {
-	mongoose.connect('process.env.MONGOLAB_URI', function(err) {
+	mongoose.connect(process.env.MONGOLAB_URI, function(err) {
 	    if(err) {
 	        console.log('Mongolab connection failed :', err);
 	    } else {
