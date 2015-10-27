@@ -4,6 +4,7 @@
   "description": "A statistical tool upon bicycle-sharing systems",
   "private": true,
   "author": "V1C0D3R <V1C0D3R@gmail.com>",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
@@ -13,12 +14,13 @@
     "bike",
     "map"
   ],
+  "license": "MIT",
   "dependencies": {
+    "cron": "^1.0.9",
     "express": "4.13.3",
     "mongoose": "^4.2.2",
     "path": "^0.12.7",
     "request": "^2.65.0"
   },
-  "license": "MIT"
+  "engines": "4.2.1"
 }
-

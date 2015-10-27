@@ -1,11 +1,11 @@
+//https://download.data.grandlyon.com/ws/rdata/jcd_jcdecaux.jcdvelov.json
+
 //Avoid issues calling non-existing variables
 "use strict";
 
 var request = require('request');
 var api = require('./api.config.js');
-console.log("Jusqu'ici ca va 1.0");
 var stats = require('../data_handler/stats.data.js');
-console.log("Jusqu'ici ca va 1.1");
 
 var getStation = function(apiKey, contract, number, res)	{
 	var url = stationNumberUrl(apiKey, contract, number);
@@ -70,5 +70,6 @@ var keyParam = function(apiKey)	{
 var contractParam = function(contract)	{
 	return "contract=" + contract;
 }
+
 
 

@@ -5,14 +5,15 @@ var express = require('express');
 var app     = express();
 var path    = require('path');
 
-app.use(express.static(__dirname + '/pages'));
 //Store all HTML files in pages folder.
+app.use(express.static(__dirname + '/pages'));
 
+console.log("Jusqu'ici ca va 1");
 var apiRequest = require(path.join(__dirname+'/jcdecaux_api/api.requests.js'));
-var config = require(path.join(__dirname+'/config.js'));
-if (config == null) {
-    console.log('Please fill config_example with data and rename it to config.js before running server.');
-}
+console.log("Jusqu'ici ca va 2");
+var config     = require(path.join(__dirname+'/config.js'));
+
+//Every URL access are redirected here :
 
 app.get('/', function (req, res) {
   res.sendFile('/index.html');
@@ -36,12 +37,11 @@ app.get('/stationInfo', function (req, res) {
   apiRequest.getStation(apiKey, contract, number, res);
 });
 
+//Server configuration
 var server = app.listen(config.port, function () {
   var host = server.address().address;
   var port = server.address().port;
-  if (config == null) {
-    server.close();
-    console.log('Please fill config_example with data and rename it to config.js before running server.');
-  }console.log('CycloCensus app listening at http://%s:%s', host, port);
+
+  console.log('CycloCensus app listening at http://%s:%s', host, port);
 });
 

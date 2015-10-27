@@ -1,6 +1,8 @@
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var ObjectId = Schema.ObjectId;
 
-var StationSchema = new mongoose.Schema({
+var StationSchema = new Schema({
   number: Number,
   name: String,
   address: String,
@@ -12,7 +14,8 @@ var StationSchema = new mongoose.Schema({
   available_bikes: Number,
   note: String,
   last_update: Date,
-  updated_at: { type: Date, default: Date.now },
+  updated_at: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('Todo', TodoSchema);
+module.exports = mongoose.model('Station', StationSchema);
+

@@ -1,6 +1,6 @@
 var mongo = {};
 
-mongo.user = "";
-mongo.pw = "";
+mongo.user = process.env. || "";
+mongo.pw = process.env. || "";
 
 module.exports = mongo;
