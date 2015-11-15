@@ -5,7 +5,7 @@ config.port = 8080;
 
 //Default API Key :
 //Grab it here : https://developer.jcdecaux.com
-config.apiKey = process.env.JCDECAUX_API_KEY || "[YOUR_API_KEY_HERE]";
+config.apiKey = process.env.JCDECAUX_API_KEY || "";
 
 module.exports = config;
 

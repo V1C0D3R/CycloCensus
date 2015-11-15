@@ -11,7 +11,7 @@ var app = express();
 var Station = require('../models/Station.js');
 
 if ('development' == app.get('env')) {
-	mongoose.connect(process.env.MONGOLAB_URI, function(err) {
+	mongoose.connect(process.env.MONGODB_URI, function(err) {
 	    if(err) {
 	        console.log('Mongolab connection failed :', err);
 	    } else {
@@ -21,7 +21,7 @@ if ('development' == app.get('env')) {
 	    }
 	});
 } else if('production' == app.get('env')) {
-	mongoose.connect(process.env.MONGOLAB_URI, function(err) {
+	mongoose.connect(process.env.MONGODB_URI, function(err) {
 	    if(err) {
 	        console.log('Mongolab connection failed :', err);
 	    } else {
