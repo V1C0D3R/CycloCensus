@@ -8,6 +8,7 @@ var StationSchema = new Schema({
   address: String,
   position: {lat: Number, lng: Number},
   banking: Boolean,
+  bonus: Boolean,
   status: String,
   contract_name: String,
   available_bike_stands: Number,
@@ -18,4 +19,3 @@ var StationSchema = new Schema({
 });
 
 module.exports = mongoose.model('Station', StationSchema);
-
